@@ -84,6 +84,10 @@ img{
     display: flex;
 }
 
+.about-container p{
+    padding: 10px;
+}
+
 .menu-bar{
     display: flex;
     justify-content: space-between;
