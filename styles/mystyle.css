@@ -27,6 +27,11 @@ img{
     max-width: 100%;
 }
 
+h2{
+    text-align: center;
+
+}
+
 /* utilities */
 
 .container{
@@ -48,6 +53,18 @@ img{
     cursor: pointer;
     letter-spacing: 3px;
     box-sizing: border-box;
+}
+
+.bold-text{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.light-text{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
 }
 
 /* header */
@@ -116,6 +133,7 @@ img{
     background-color: rgb(233, 231, 231);
     width: 550px;    
     border: 1px solid #adadad;
+    margin-right: 10px;
 }
 
 .houses-item-text{
@@ -136,4 +154,123 @@ img{
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+}
+
+.contact-header{
+    background-color: orange;
+    height: 20vh;
+}
+
+.btn-header-contact{
+    text-decoration: none;
+    color:black;
+    margin-right: 25px;
+}
+
+.coffeebtn-contact{
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    border:none;
+    font-weight: bold;
+}
+
+/* contact */
+
+.form-container{
+    padding: 15px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+legend{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+fieldset{
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-control label{
+    display: inline-block;
+    width: 20%;
+}
+.input-control input, .input-control textarea{
+    width: 80%;
+    padding: 3px;
+    border: none;
+}
+
+footer {
+    background-color: #f2f2f2; /* Color de fondo similar al de la imagen */
+    padding: 15px 0;
+    border-top: 1px solid black; /* Línea superior */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-center {
+    font-size: 14px;
+}
+
+.footer-center a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-right {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* Asegurar que los íconos se muestren correctamente */
+.social-icon i {
+    font-size: 14px;
+}
+
+.footer-contact{
+    margin-top: 150px;
+}
+
+.footer-bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-center strong {
+    margin: 0 10px; /* Espacio a la izquierda y derecha del "|" */
 }
