@@ -179,7 +179,7 @@ h2{
 
 .form-container{
     padding: 15px;
-    background-color: lightgrey;
+    background-color: #e4e4e4;
     border-radius: 5px;
 }
 legend{
@@ -210,7 +210,7 @@ fieldset{
 }
 
 footer {
-    background-color: #f2f2f2; /* Color de fondo similar al de la imagen */
+    background-color: #e4e4e4; /* Color de fondo similar al de la imagen */
     padding: 15px 0;
     border-top: 1px solid black; /* Línea superior */
 }
