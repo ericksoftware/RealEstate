@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <title>Real State</title>
 </head>
 <body>
@@ -11,6 +12,12 @@
         <div class="header-container">
             <div class="menu-bar">
                 <a href="index.html" class="coffeebtn"><h1>RealEstate</h1></a>
+                <label class="hamburger-icon" for="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
                 <nav>
                     <a class="btn-header" href="about.html">About</a>
                     <a class="btn-header" href="blog.html">Blog</a>
@@ -20,7 +27,8 @@
             <p class="title-header">We sell luxury houses Condominiums, and penthouses</p>
         </div>
     </header>
-    <main class="containar">
+    
+    <main class="containr">
             <h2>More about us</h2>  
         <div class="about-container">
             <div>
@@ -124,5 +132,22 @@
             </div>
         </div>
     </main>
+
+    <footer class="footer-contact">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Powered by <span class="footer-bold">Zillow</span></p>
+            </div>
+            <div class="footer-center">
+                <p>Copyrights &copy; 2024 <strong> | </strong></p>
+                <p class="footer-bold">Privacy Policy</p>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
